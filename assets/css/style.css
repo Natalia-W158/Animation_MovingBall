@@ -1,0 +1,51 @@
+body{
+    height: 50vh;
+    width: 50vw;
+    animation: ball 5s infinite .5s ease;
+}
+
+/* ja es ist beabsichtigt, dass ANimation auch im body steht. Gefällt mir mehr :) */
+
+#ball{
+    height:6em;
+    width: 6em;
+    background-color: hotpink;
+    border-radius: 50%; 
+}
+
+@keyframes ball{
+    0%{
+        background-color: indianred;
+        position: absolute;
+        left:0;
+        top:0;
+        
+    }
+    25%{
+        background-color: aqua;
+        position: absolute;
+        left:90vw;
+        top:0;
+        
+    }
+    50%{
+        background-color: yellow;
+        position: absolute;
+        top: 90vh;
+        left: 90vw;
+        
+    }
+    75%{
+        background-color: mediumaquamarine;
+        position: absolute;
+        top: 90vh;
+        left: 0;
+    
+    }
+    100%{
+        background-color: goldenrod;
+        position: absolute;
+        left:0;
+        top:0;
+    }
+}
