@@ -4,7 +4,7 @@ body{
     animation: ball 5s infinite .5s ease;
 }
 
-/* ja es ist beabsichtigt, dass ANimation auch im body steht. Gefällt mir mehr :) */
+/* ja es ist beabsichtigt, dass Animation auch im body steht. Gefällt mir mehr :) */
 
 #ball{
     height:6em;
